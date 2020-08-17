@@ -30,3 +30,8 @@ See [**create_dashboard.py**](create_dashboard.py) for the code used to create t
 Below is a screenshot confirming I sent a snapshot to myself using the @ notation:
 
 ![confirm snapshot email](media/visualizing-data/confirm-snapshot-email.png)
+
+## Final Questions
+
+I chose the [`dog-watcher`]((https://github.com/brightcove/dog-watcher) community library.
+Here's a link to my blog post: [Store dashboard and monitor configurations on GitHub with `dog-watcher`](dog-watcher-blog-post.md)
