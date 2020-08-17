@@ -6,8 +6,6 @@ Below is a screenshot of a hostmap of my host, **docker-desktop**, and the tag *
 
 ![hostmap with tag](media/collecting-metrics/hostname-with-tag.png)
 
-**Bonus Question**: Can you change the collection interval without modifying the Python check file you created?
-
 See the following files for code I used in this section:
 
 - [datadog.yaml](datadog.yaml): Added tag **environment:dev**
@@ -22,6 +20,10 @@ Below is a screenshot of my dashboard:
 ![visualizing data dashboard](media/visualizing-data/visualizing-data-dashboard.png)
 
 See [**create_dashboard.py**](create_dashboard.py) for the code used to create this dashboard. 
+
+**Bonus Questions**: What is the Anomaly graph displaying?
+
+- The anomaly graph is diplaying a grey band overlay that shows the expected series of behavior based on the past. This particular algorithm is showing the number of expected objects in the MongoDB databse. Data within the gray bounds can be interepreted as standard deviations for the algorithm.
 
 ### Send a snapshot using @
 
