@@ -1,6 +1,6 @@
 # Store dashboard and monitor configurations on GitHub with `dog-watcher`
 
-Whether you have a few or a few hundred dashboards and monitors, [`dog-watcher`](https://github.com/brightcove/dog-watcher) simplifies the configuration storage. Using the `dog-watcher` library, you can automatically store dashboard and monitor configurations from Datadog as JSON in a GitHub repository.
+Whether you have a few or a few hundred dashboards and monitors, [`dog-watcher`](https://github.com/brightcove/dog-watcher) simplifies configuration storage. Using the `dog-watcher` library you can automatically store dashboard and monitor configurations from Datadog as JSON in a GitHub repository.
 
 Dashboard and monitor configuration backup can run just once, or `dog-watcher` can be set to a specific time interval. If run regularly, `dog-watcher` can be used to create a change history (excluding authors) for Datadog objects.
 
@@ -9,7 +9,7 @@ This blog post will show you how to configure and run `dog-watcher`. You'll lear
 - the prerequisites for running `dog-watcher`
 - how to update your [configuration file](#update-conf.json.example)
 - how to [start `dog-watcher`](#start-dog-watcher)
-- which environment variables to set for [debugging](#debugging)
+- environment variables to set for [debugging](#debugging)
 
 ## Prerequisites
 - Install [Node.js and npm](https://www.npmjs.com/get-npm). You can test if the packages are installed by running `node -v` and `npm -v` from a command line.

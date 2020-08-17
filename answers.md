@@ -6,7 +6,7 @@ Below is a screenshot of a hostmap of my host, **docker-desktop**, and the tag *
 
 ![hostmap with tag](media/collecting-metrics/hostname-with-tag.png)
 
-I used the following config and code filesin this section:
+I used the following config and code files in this section:
 
 - [**datadog.yaml**](snippets/datadog.yaml): Added tag **environment:dev**
 - [**custom_mymetric.py**](snippets/custom_mymetric.py): Code used to create **my_metric**
