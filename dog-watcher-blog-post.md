@@ -1,6 +1,6 @@
 # Store dashboard and monitor configurations on GitHub with `dog-watcher`
 
-Whether you have a few or a few hundred dashboards and monitors, [`dog-watcher`](https://github.com/brightcove/dog-watcher) simplifies the configuration storage. Using the `dog-watcher` library you can automatically store dashboard and monitor configurations from Datadog as JSON in a GitHub repository.
+Whether you have a few or a few hundred dashboards and monitors, [`dog-watcher`](https://github.com/brightcove/dog-watcher) simplifies the configuration storage. Using the `dog-watcher` library, you can automatically store dashboard and monitor configurations from Datadog as JSON in a GitHub repository.
 
 Dashboard and monitor configuration backup can run just once, or `dog-watcher` can be set to a specific time interval. If run regularly, `dog-watcher` can be used to create a change history (excluding authors) for Datadog objects.
 
